@@ -15,7 +15,60 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
-    position: absolute;
+position: absolute;
+}
+
+#background{
+z-index: 1;
+}
+
+
+#topRow{
+z-index: 2;
+}
+
+#dropDownArrow{
+top: 0px;
+}
+
+#dots{
+top: 0px;
+}
+
+#heartFill{
+    top: 0px;
+}
+#heartNoFill{
+    top: 0px;
+}
+
+#middleRow{
+z-index: 2;
+
+}
+
+#evanAlbumCover{
+    top: 0px;
+
+}
+#musicName{
+    top: 0px;
+}
+
+#artistName{
+    top: 0px;
+}
+
+#firstTimestamp{
+    top: 0px;
+}
+
+#secondTimestamp{
+    top: 0px;
+}
+
+#progressBar{
+    top: 0px;
 }
 
 #circle {
@@ -24,3 +77,36 @@ img {
   background-color: #555;
   border-radius: 50%;
 }
+
+#line{
+    top: 0px;
+}
+
+
+#bottomRow{
+    z-index: 2;
+}
+#forward{
+    top: 0px;
+}
+#loop{
+    top: 0px;
+}
+
+#play{
+    top: 0px;
+}
+
+#pause{
+    top: 0px;
+}
+
+#rewind{
+    top: 0px;
+}
+
+#shuffle{
+top: 0px;
+}
+
+
