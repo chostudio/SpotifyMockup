@@ -1,67 +1,56 @@
-/* color variables */
-
-
-
-
-/* background */
-
 body{
 position: absolute;
 }
 
 p {
 font-family: Arial, Helvetica, sans-serif;
+color: white;
 }
 
 h2 {
 font-family: Arial, Helvetica, sans-serif;
+color: white;
 }
 
 img {
 position: absolute;
-margin: 0 auto;
+
 }
 
 #background{
     position: absolute;
 z-index: 1;
- width: 500px;
+ width: 350px;
  height: auto;
  display: block;
-
 }
 
-
-#topRow{
-    position: absolute;
-z-index: 2;
-display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
-#middleRow{
-    position: absolute;
-z-index: 3;
-display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-  
-}
-
-
-#bottomRow{
+.topRow{
     position: absolute;
     z-index: 2;
-    display: block;
+margin-left: auto;
+  margin-right: auto;
+}
+
+.middleRow{
+    position: absolute;
+z-index: 3;
+top: 100px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.bottomRow{
+    position: absolute;
+    z-index: 2;
+  margin-left: auto;
+  margin-right: auto;
+  top: 500px;
 }
 
 #dropDownArrow{
 top: 0px;
+
 }
 
 #dots{
@@ -75,23 +64,19 @@ top: 0px;
     top: 0px;
 }
 
-
 #evanAlbumCover{
-    
-    top: 0px;
-    width: 400px;
+padding-left: 50px;
+    width: 250px;
     height: auto;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-
+    
 }
+
 #musicName{
     top: 0px;
 }
 
 #artistName{
-    top: 0px;
+    top: 1000px;
 }
 
 #firstTimestamp{
@@ -102,19 +87,19 @@ top: 0px;
     top: 0px;
 }
 
-#progressBar{
-    top: 0px;
-}
-
 #circle {
-  height: 50px;
-  width: 50px;
-  background-color: #555;
+    top: 100px;
+  height: 20px;
+  width: 20px;
+  background-color: rgb(255, 255, 255);
   border-radius: 50%;
 }
 
 #line{
-    top: 0px;
+    top: 100px;
+      height: 10px;
+  width: 200px;
+   background-color: rgb(255, 255, 255);
 }
 
 
