@@ -25,6 +25,15 @@ z-index: 1;
  display: block;
 }
 
+#mockupImage{
+    position: absolute;
+z-index: 5;
+ width: 350px;
+ height: auto;
+ display: block;
+ margin-left: 400px;
+}
+
 .topRow{
     position: absolute;
     z-index: 2;
@@ -35,95 +44,159 @@ margin-left: auto;
 .middleRow{
     position: absolute;
 z-index: 3;
-top: 100px;
+top: 105px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .bottomRow{
     position: absolute;
-    z-index: 2;
+    z-index: 4;
   margin-left: auto;
   margin-right: auto;
-  top: 500px;
+  margin-top: 600px;
 }
 
 #dropDownArrow{
-top: 0px;
-
+margin-top: 32.5px;
+margin-left: 20px;
+height: auto;
+width: 20px;
 }
 
 #dots{
-top: 0px;
+margin-top: 37.5px;
+margin-left: 300px;
+height: auto;
+width: 15px;
+
 }
 
+#queue{
+    font-size: 15px;
+    margin-top: 30px;
+margin-left: 150px;
+
+}
 #heartFill{
-    top: 0px;
+margin-top: -90px;
+margin-left: 290px;
+   width: 20px;
+    height: auto;
+
 }
 #heartNoFill{
-    top: 0px;
+margin-top: -100px;
+margin-left: 290px;
+   width: 25px;
+    height: auto;
+
 }
 
 #evanAlbumCover{
-padding-left: 50px;
-    width: 250px;
+margin-left: 20px;
+    width: 310px;
     height: auto;
-    
 }
 
 #musicName{
-    top: 0px;
+margin-top: 350px;
+margin-bottom: 0px;
+margin-left: 30px;
+font-size: 30px;
 }
 
 #artistName{
-    top: 1000px;
+margin-top: 0px;
+margin-bottom: 0px;
+margin-left: 30px;
+color: rgb(196,180,198);
+font-size: 20px;
 }
 
 #firstTimestamp{
-    top: 0px;
+margin-top: 10px;
+margin-left: 20px;
+margin-bottom: 0px;
+color: rgb(196,180,198);
+font-size: 15px;
 }
 
 #secondTimestamp{
-    top: 0px;
+margin-top: -19px;
+margin-left: 290px;
+color: rgb(196,180,198);
+font-size: 15px;
 }
 
 #circle {
-    top: 1000px;
-  height: 20px;
-  width: 20px;
+  height: 15px;
+  width: 15px;
   background-color: rgb(255, 255, 255);
   border-radius: 50%;
+  margin-bottom: -39px;
+  margin-left: 135px;
 }
 
-#line{
-    top: 100px;
-      height: 10px;
-  width: 200px;
+#topline{
+margin-left: 20px;
+      height: 5px;
+  width: 125px;
    background-color: rgb(255, 255, 255);
+     z-index: 3;
+     display: inline-block;
+     margin-bottom: -19px;
+}
+
+
+#bottomline{
+    z-index: -1;
+margin-left: 20px;
+      height: 5px;
+      margin-top: 10px;
+  width: 310px;
+   background-color: rgb(132,95,145);
+}
+
+
+#shuffle{
+margin-top: 10px;
+margin-left: 30px;
+width: 40px;
+height: auto;
+}
+#rewind{
+margin-top: 10px;
+margin-left: 100px;
+width: 30px;
+height: auto;
+}
+
+#play{
+margin-top: 0px;
+margin-left: 150px;
+width: 50px;
+height: auto;
+}
+
+#pause{
+margin-top: 10px;
+margin-left: 10px;
+width: 30px;
+height: auto;
 }
 
 
 #forward{
-    top: 0px;
+margin-top: 10px;
+margin-left: 220px;
+width: 30px;
+height: auto;
 }
 #loop{
-    top: 0px;
+margin-top: 10px;
+margin-left: 290px;
+width: 30px;
+height: auto;
 }
-
-#play{
-    top: 0px;
-}
-
-#pause{
-    top: 0px;
-}
-
-#rewind{
-    top: 0px;
-}
-
-#shuffle{
-top: 0px;
-}
-
 
